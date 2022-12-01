@@ -6,4 +6,4 @@ const Title = () => {
     return <h1>React useCallback tutorial</h1>
 };
 
-export default Title;
+export default React.memo(Title)

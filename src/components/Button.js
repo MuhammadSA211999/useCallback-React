@@ -8,4 +8,4 @@ const Button = ({ children, handleClick }) => {
     );
 };
 
-export default Button;
+export default React.memo(Button) 
